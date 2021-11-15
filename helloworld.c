@@ -5,7 +5,7 @@
 #include<stdio.h>
 int
 main(void)
-{ /* Bandam Program */
+{ /* Bandan Program */
     printf("Halo Dunia!");
     printf("Halo Dunia!\n");
     printf("Halo Dunia!");
