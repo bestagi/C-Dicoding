@@ -1,12 +1,11 @@
-/* File : helloworld.c */
+/* File : 1.0-helloworld.c */
 /* Penulis : Bestagi, Email bestagi.egi@live.com  */
-/* Program menuliskan "Halo Dunia! " dan "end-of-line" (ganti baris) */
+/* Program menuliskan "Halo Dunia! " dan "end-of-line/New Line" */
 
 #include<stdio.h>
+
 int
 main(void)
-{ /* Bandan Program */
-    printf("Halo Dunia!");
-    printf("Halo Dunia!\n");
-    printf("Halo Dunia!");
+{ /* Badan Program */
+    printf("Halo Dunia!\nHalo Dunia!\nHalo Dunia!");
 }
