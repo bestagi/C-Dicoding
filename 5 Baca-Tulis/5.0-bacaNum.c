@@ -7,13 +7,13 @@
 #include<stdio.h>
 int main(){
     /* Kamus */
-    int angka;
+    int a;
     float x;
 
     /* Program */
     printf("Contoh membaca dan menulis, ketik nilai integer : ");
-    scanf("%d", &angka); /* membaca nilai a yang bertype integer perhatikan bahwa nama variabel ditulis dengan "&a" */
-    printf("Nilai yang dibaca : %d \n", angka);
+    scanf("%d", &a); /* membaca nilai a yang bertype integer perhatikan bahwa nama variabel ditulis dengan "&a" */
+    printf("Nilai yang dibaca : %d \n", a);
 
     printf("Ketik nilai sebuah bilangan riil : ");
     scanf("%f", &x); /* Membaca nilai a yang bertype integer */
