@@ -1,13 +1,10 @@
 #include<stdio.h>
-int main ()
-{
-/* Kamus */
-  int i;
-  /* Program */
-  i = 3;
-  printf ("Nilai i : %d %d\n", i++, i);
-  i = 3;
-  printf ("Nilai i : %d\n", --i, i); /* sebelum dicetak, nilai i ditambah 1 */
+int main (){
+  int i = 5;
+
+
+  printf ("Nilai i : %d %d \n", i, i++);
+  printf ("Nilai i : %d %d \n", --i, i);
  
   return 0;
 }
